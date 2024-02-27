@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(218, 217, 217);
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px 5%;
+    background-color: #10d48e;
+
+}
+
+.navBar {
+    list-style: none;
+
+}
+.navBar li a:hover{
+    color: rgb(14, 14, 13);
+    text-decoration: underline;
+
+}
+.navBar li {
+    display: inline-block;
+    padding: 0% 10px; 
+}
+.donate_banner {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(images/plasticworld.png);
+    background-size: 100%;
+    
+}
+#d_title {
+    color: aliceblue;
+    text-shadow: 1px 2px 3px black;
+    text-align: center;
+    font-size: 70px;
+}
+.sechead1 {
+    background-color: rgb(178, 237, 195);
+    padding: 15px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.content {
+    padding-left: 15px;
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(214, 238, 247);
+}

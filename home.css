@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(218, 217, 217);
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px 5%;
+    background-color: #10d48e;
+
+}
+
+.navBar {
+    list-style: none;
+
+}
+.navBar li a:hover{
+    color: rgb(14, 14, 13);
+    text-decoration: underline;
+
+}
+.navBar li {
+    display: inline-block;
+    padding: 0% 10px; 
+}
+
+.p_name {
+    padding-top: 25% ;
+    padding-bottom: 25%;
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/home.png);
+    background-size: 100%;
+    opacity: 85%; 
+}
+
+.m_stat {
+    background-color: rgb(143, 207, 149);
+    padding: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#title {
+    color: rgb(227, 233, 228);
+    text-shadow: 2px 4px 4px  rgb(8, 7, 7);
+}
+
+#schneg {
+    display: inline-block;
+}
+.h_pics {
+    background-color: rgb(143,207,149);
+}
+
+.p_goals {
+    background-color: rgb(182, 204, 223);
+    padding-top: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 10px;
+    padding-bottom: 5%;
+    padding-right: 10px;
+}

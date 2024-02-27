@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(218, 217, 217);
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px 5%;
+    background-color: #10d48e;
+
+}
+
+.navBar {
+    list-style: none;
+
+}
+.navBar li a:hover{
+    color: rgb(14, 14, 13);
+    text-decoration: underline;
+
+}
+.navBar li {
+    display: inline-block;
+    padding: 0% 10px; 
+}
+
+.h_header {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: url(images/bottle.png);
+    background-size: 110%;
+}
+
+#help_header {
+    color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 3px 4px black;
+    font-size: 50px;
+}
+.s1{
+    padding-right: 10px;
+    width: 30%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.s2 {
+    padding-right:10px;
+    width: 30%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.s3 {
+    padding-right: 10px;
+    width: 30%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.parent1 {
+    display:flex;
+    background-color: bisque;
+    padding-left: 9%;
+
+}
+.s4 {
+    width: 30%;
+    padding-right: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.s5 {
+    width: 30%;
+    padding-right: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.s6 {
+    width: 30%;
+    padding-right:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.parent2 {
+    display: flex;
+    background-color: bisque;
+    padding-left: 9%;
+}
+.c_event {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(123, 209, 144);
+    text-align: center;
+}
+#c_event2 {
+    font-size: 30px;
+    color:aliceblue;
+    text-shadow: 1px 2px 3px  black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sus_header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(123, 209, 144);
+    text-align: center;
+}
+#sus {
+    font-size: 30px;
+    color:aliceblue;
+    text-shadow: 1px 2px 3px  black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.techniques {
+    background-color: rgb(166, 203, 227);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+#c_head {
+    font-size: 25px;
+    color:rgb(23, 23, 23) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

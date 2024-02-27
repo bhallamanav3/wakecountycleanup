@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(218, 217, 217);
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px 5%;
+    background-color: #10d48e;
+
+}
+
+.navBar {
+    list-style: none;
+
+}
+.navBar li a:hover{
+    color: rgb(14, 14, 13);
+    text-decoration: underline;
+
+}
+.navBar li {
+    display: inline-block;
+    padding: 0% 10px; 
+}
+.about_banner {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-image: url(images/about.png);
+    opacity: ;
+}
+
+#t_aboutus {
+    color:aliceblue;
+    text-shadow: 1px 2px 3px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.s_header {
+    background-color: rgb(43, 140, 205);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#s_text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.leader_pics {
+    display: flex;
+    padding-left: 20px;
+}
+
+#mbhalla {
+    width: 30%;
+    padding-right: 10px;
+}
+
+#pledesma {
+    width: 30%;
+    padding-right: 10px;
+}
+
+#bschwier {
+    padding-right: 15px;
+    width: 30%;
+}
+
+
+.leaders {
+    display: flex;
+    padding-left: 30px;
+    background-color: bisque;
+    align-items: center;
+}
+
+#l1 {
+    width: 35%;
+    padding-right: 10px;
+}
+
+#l2 {
+    width: 30%;
+    padding-right: 10px;
+}
+
+#l3 {
+    width: 30%;
+    padding-right: 15px;
+}
+
+.leader_pics {
+    display: flex;
+    padding-left: 30px;
+    background-color: rgb(183, 211, 199);
+    padding-top: 15px;
+    
+}
+
+#mbhalla {
+    border-radius: 50%;
+    margin-right: 75px;
+    margin-left: 30px;
+
+}
+#pledesma {
+    border-radius: 50%;
+    margin-right: 75px;
+
+}
+#bschwier {
+    border-radius: 50%;
+}
